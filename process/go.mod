@@ -15,3 +15,14 @@ require (
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/sirupsen/logrus v1.8.1
 )
+replace (
+	github.com/ochinchina/supervisord/config => ../config
+	github.com/ochinchina/supervisord/events => ../events
+	github.com/ochinchina/supervisord/faults => ../faults
+	github.com/ochinchina/supervisord/logger => ../logger
+	github.com/ochinchina/supervisord/process => ../process
+	github.com/ochinchina/supervisord/signals => ../signals
+	github.com/ochinchina/supervisord/types => ../types
+	github.com/ochinchina/supervisord/util => ../util
+	github.com/ochinchina/supervisord/xmlrpcclient => ../xmlrpcclient
+)

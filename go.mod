@@ -1,6 +1,8 @@
 module github.com/ochinchina/supervisord
 
-go 1.17
+go 1.22
+
+toolchain go1.23.9
 
 require (
 	github.com/gorilla/mux v1.8.0
