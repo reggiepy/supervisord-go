@@ -93,7 +93,7 @@ archives:
 release:
   github:
     owner: reggiepy
-    name: supervisord
+    name: supervisord-go
   draft: false
   prerelease: auto
   name_template: "{{.ProjectName}}-v{{.Version}}"
