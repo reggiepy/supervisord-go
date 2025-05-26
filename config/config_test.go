@@ -2,7 +2,7 @@ package config
 
 import (
 	"fmt"
-	"supervisord/util"
+	"github.com/ochinchina/supervisord/util"
 	"io/ioutil"
 	"os"
 	"path/filepath"

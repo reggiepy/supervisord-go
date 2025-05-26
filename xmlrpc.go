@@ -189,7 +189,7 @@ func (p *XMLRPC) startHTTPServer(user string, password string, protocol string, 
 			continue
 		}
 		dir := filepath.Dir(filePath)
-		fmt.Println(dir)
+		fmt.Printf("[%s] log path: %s\n", realName, dir)
 		mux.Handle("/log/"+realName+"/", http.StripPrefix("/log/"+realName+"/", http.FileServer(http.Dir(dir))))
 	}
 
